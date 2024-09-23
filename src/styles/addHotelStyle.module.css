@@ -1,0 +1,40 @@
+ html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.page {
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.formHotel {
+  width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.btnAdd{
+  width: 300px;
+}  
